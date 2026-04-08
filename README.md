@@ -1,11 +1,11 @@
 # 🖧 Parcial Redes Seguridad
-
-## 📌 Descripción
+## Integrantes : Isabella Ortiz Hernandez, Isabela Cabezas Obregon, Samuel Sepulveda Castaño
+##  Descripción
 En este proyecto se configuraron y validaron servicios de red en Linux utilizando máquinas virtuales con Vagrant. Se implementaron mecanismos de seguridad como firewall (UFW), FTP seguro (FTPS) y DNS over TLS (DoT).
 
 ---
 
-## 🖥️ Entorno
+##  Entorno
 
 - Servidor: 192.168.50.3  
 - Cliente: 192.168.50.2  
@@ -13,7 +13,7 @@ En este proyecto se configuraron y validaron servicios de red en Linux utilizand
 
 ---
 
-## 🔥 1. Firewall (UFW)
+##  1. Firewall (UFW)
 
 Se configuró el firewall para controlar el acceso a los servicios:
 
@@ -28,7 +28,7 @@ También se realizaron pruebas bloqueando y habilitando servicios.
 
 ---
 
-## 📂 2. FTP Seguro (FTPS)
+##  2. FTP Seguro (FTPS)
 
 Se configuró el servidor FTP con cifrado TLS usando vsftpd.
 
@@ -39,7 +39,7 @@ Se configuró el servidor FTP con cifrado TLS usando vsftpd.
 
 ---
 
-## 🌐 3. DNS over TLS (DoT)
+##  3. DNS over TLS (DoT)
 
 Se configuró el cliente para usar DNS seguro.
 
@@ -50,7 +50,7 @@ Se configuró el cliente para usar DNS seguro.
 
 ---
 
-## 🔍 Verificación
+##  Verificación
 
 Se verificó la configuración con:
 
@@ -59,7 +59,7 @@ Se verificó la configuración con:
 
 ---
 
-## 🔐 Capturas de red
+##  Capturas de red
 
 Se analizaron paquetes con Wireshark:
 
@@ -68,16 +68,16 @@ Se analizaron paquetes con Wireshark:
 
 ---
 
-## ⚖️ Comparación
+##  Comparación
 
 | Tipo | Puerto | Seguridad |
 |------|--------|-----------|
-| DNS normal | 53 | ❌ No cifrado |
-| DNS over TLS | 853 | ✅ Cifrado |
+| DNS normal | 53 |  No cifrado |
+| DNS over TLS | 853 |  Cifrado |
 
 ---
 
-## 📸 Evidencias
+##  Evidencias
 
 Se incluyen capturas de:
 
@@ -88,6 +88,6 @@ Se incluyen capturas de:
 
 ---
 
-## 🎯 Conclusión
+##  Conclusión
 
 Se logró implementar seguridad en los servicios de red mediante el uso de FTPS, firewall y DNS over TLS, evidenciando la diferencia entre tráfico cifrado y no cifrado.
