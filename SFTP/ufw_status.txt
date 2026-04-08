@@ -1,0 +1,11 @@
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 50000:50010/tcp            ALLOW IN    Anywhere                  
+[ 2] 21/tcp                     ALLOW IN    Anywhere                  
+[ 3] 22                         ALLOW IN    Anywhere                  
+[ 4] 22/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[ 5] 21/tcp (v6)                ALLOW IN    Anywhere (v6)             
+[ 6] 22 (v6)                    ALLOW IN    Anywhere (v6)             
+
